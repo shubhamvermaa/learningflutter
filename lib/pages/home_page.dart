@@ -13,8 +13,8 @@ class HomePage extends StatelessWidget {
         drawer: Drawer(),
         body: Center(
           child: Container(
-            child: Text("custom app",
-            style: TextStyle(color: Colors.red)),
+            child: Text("Welcome to the App",
+            style: TextStyle(color: Colors.black,fontSize: 30,fontWeight: FontWeight.bold)),
           ),
         ));
   }
